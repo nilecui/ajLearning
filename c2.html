@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+	<head>
+		<meta charset="UTF-8">
+		<title>2、简单的HelloWorld</title>
+		<script src="js/angular.min.js"></script>
+	</head>
+	<body>
+		你的名字：<input type="text" ng-model="yourname" placeholder="你的名字">
+		<hr>
+		Hello {{yourname || "world!"}}
+		<p>表达式应用：</p>
+		<p>1+2={{1+2}}</p>
+	</body>
+</html>
